@@ -141,7 +141,7 @@ def banner(theme, mobile=False):
             f'font-size="{fs_tag}" fill="{c["tag"]}" letter-spacing="0.02em">'
             f'{"  ·  ".join(row)}</text>')
 
-    label = f'{CONTENT["name"]} — {CONTENT["eyebrow"].title()}'
+    label = f'{CONTENT["name"]}, {CONTENT["eyebrow"].title()}'
     body = "\n".join(parts)
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
             f'viewBox="0 0 {w} {h}" role="img" aria-label="{label}">\n'
