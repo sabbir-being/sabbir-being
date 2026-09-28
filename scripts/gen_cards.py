@@ -28,7 +28,7 @@ import urllib.request
 from collections import defaultdict
 from datetime import datetime, timezone
 
-USER = os.environ.get("GH_USER", "sabbir-offc")
+USER = os.environ.get("GH_USER", "sabbir-being")
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 OUT = "Images"
 
