@@ -7,7 +7,7 @@ language off the back of old bootcamp projects. Anything accurate has to come fr
 authenticated token, so these cards are rendered here and committed to the repo.
 
 Two metrics are deliberately chosen:
-  * language share is measured in BYTES, not repo count — by repo count JavaScript
+  * language share is measured in BYTES, not repo count. By repo count JavaScript
     still wins purely because the 2023-era repos were numerous and tiny.
   * commit counts include restrictedContributionsCount, i.e. private-repo commits.
 
@@ -170,7 +170,7 @@ def esc(s):
 
 
 # Type scales. A README image is laid out with width="98%", so the rendered text size
-# is (font-size x container/viewBox) — the viewBox width sets the scale, not the font.
+# is (font-size x container/viewBox), so the viewBox width sets the scale.
 # GitHub's markdown column is ~830px on a desktop but only ~293px on a 375px phone, so
 # one 920-wide card cannot serve both: at 0.32x the desktop labels land at 3-4px. The
 # mobile variants below are drawn on a 400-wide canvas instead, which renders at ~0.73x
@@ -209,7 +209,7 @@ viewBox="0 0 {w} {h}" role="img" aria-label="{esc(title)}">
 # ----------------------------------------------------------------- card bodies
 
 # All cards are the same full width. GitHub wraps <picture> in a <themed-picture>
-# custom element, so two cards at width="49%" stack instead of sitting side by side —
+# custom element, so two cards at width="49%" stack instead of sitting side by side.
 # laying the columns out inside the SVG is the only way to control this reliably.
 W_CARD = 920
 W_MOBILE = 400
@@ -241,7 +241,7 @@ def card_languages(d, t, scale="desktop"):
                     f'height="{bar_h}" fill="{c["track"]}"/>')
 
     # The bar always shows every language. The list does too on desktop, but a phone
-    # column spends a whole 27px row on "Swift 0.00%" — below 0.1% they become a count.
+    # column spends a whole 27px row on "Swift 0.00%", so below 0.1% they become a count.
     listed = [kv for kv in ranked if kv[1] / total * 100 >= 0.1] if mob else ranked
     hidden = len(ranked) - len(listed)
 
@@ -336,7 +336,7 @@ def card_commits(d, t, scale="desktop"):
         bx = cx - bw / 2
         h = span * tot / peak
         hp = h * y["private"] / tot if tot else 0
-        # private below, public stacked above — private is the bulk of the work
+        # private below, public stacked above, since private is the bulk of the work
         out.append(f'<rect x="{bx:.1f}" y="{floor - hp:.1f}" width="{bw:.1f}" '
                    f'height="{hp:.1f}" fill="{c["title"]}"/>')
         out.append(f'<rect x="{bx:.1f}" y="{floor - h:.1f}" width="{bw:.1f}" '
