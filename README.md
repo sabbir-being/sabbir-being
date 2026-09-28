@@ -5,7 +5,7 @@
     <source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/banner-mobile-dark.svg">
     <source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/banner-mobile-light.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/banner-light.svg">
-    <img alt="Md. Sabbir Howlader — Full-Stack Engineer" width="100%" src="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/banner-dark.svg">
+    <img alt="Md. Sabbir Howlader, Full-Stack Engineer" width="100%" src="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/banner-dark.svg">
   </picture>
 </a>
 
@@ -24,11 +24,11 @@
 
 ## About
 
-Full-stack engineer from Bangladesh. I build the internal platforms a company actually runs on — then
+Full-stack engineer from Bangladesh. I build the internal platforms a company actually runs on, then
 keep going past the browser into desktop clients, device identity and the operating system underneath.
 
-- **Engineering at NeXbit LTD** — multi-tenant internal platforms: finance, lead, HR and POS systems
-- **Currently deep in** — identity & device trust: device keypairs, OTP unlock, challenge/response SSO
+- **Engineering at NeXbit LTD.** Multi-tenant internal platforms: finance, lead, HR and POS systems
+- **Currently deep in** identity and device trust: device keypairs, OTP unlock, challenge/response SSO
 
 ## Stack
 
@@ -45,13 +45,13 @@ keep going past the browser into desktop clients, device identity and the operat
 
 ### CrxTrace
 Error tracking that understands Manifest V3. Events survive service-worker death, content-script
-errors group by host, and `track()` names the task that died — the failure modes MV3 introduced and
+errors group by host, and `track()` names the task that died. These are the failure modes MV3 introduced and
 general-purpose trackers were never built for.
 
 `TypeScript` · zero runtime dependencies · `MIT` · [Docs →](https://crxtrace.dev) · [Repo →](https://github.com/sabbir-being/crxtrace) · [![crxtrace on npm](https://img.shields.io/npm/v/crxtrace?style=flat-square&label=npm&color=58A6FF&labelColor=0D1117)](https://www.npmjs.com/package/crxtrace)
 
 ### bd-commerce
-Typed clients for the infrastructure Bangladeshi e-commerce actually runs on — Steadfast, Pathao and
+Typed clients for the infrastructure Bangladeshi e-commerce actually runs on: Steadfast, Pathao and
 RedX for delivery, bKash and Nagad for payment. Every shop writes these five integrations and most
 repeat the same expensive mistakes: unsettled delivery statuses treated as final, payments marked paid
 on a redirect that never executed, a retry that ships the parcel twice. This is one careful
@@ -62,7 +62,7 @@ implementation with those designed out.
 ## Selected Work
 
 ### NeX OS
-An immutable, centrally-managed workstation operating system — a normal daily-use machine that happens
+An immutable, centrally-managed workstation operating system. A normal daily-use machine that happens
 to be encrypted and tamper-evident: `/usr` mounted read-only so nothing can modify the OS at runtime,
 users are not administrators, and a whole fleet updates from one signed image.
 
@@ -86,7 +86,7 @@ Accountant / Viewer permissions resolved per membership rather than per account.
 
 ### Seylo
 Private-by-design messaging: end-to-end encrypted, with messages that delete themselves and inference
-that runs on the device instead of a server. A Next.js client on a hand-written Go server — WebSockets,
+that runs on the device instead of a server. A Next.js client on a hand-written Go server: WebSockets,
 JWT auth, Web Push, and `web-llm` in the browser.
 
 `Next.js` · `Go` · `Postgres (pgx)` · `shadcn/ui` · [Live →](https://seylo.realsabbir.dev)
@@ -94,11 +94,11 @@ JWT auth, Web Push, and `web-llm` in the browser.
 ### TxnGuard
 Transaction tracker for Bangladeshi mobile-banking agents (bKash / Nagad / Rocket / Upay). Shopkeepers
 record who transacted with which ID, attach photo proof, flag suspicious entries and spot repeat
-numbers at a glance — a practical guard against fraud and off-book transfers.
+numbers at a glance, a practical guard against fraud and off-book transfers.
 
 `Next.js 15` · `Prisma` · `Neon Postgres` · `Tailwind` · [Live →](https://txnguard.vercel.app)
 
-**Also** — [Domain Guard](https://github.com/sabbir-being/domain-guard), a Next.js admin panel for domain
+**Also:** [Domain Guard](https://github.com/sabbir-being/domain-guard), a Next.js admin panel for domain
 allowlisting with one-click approve, recorded denials and an audit trail · [DevPulse](https://github.com/sabbir-being/l2-assignment-2-devpulse),
 an issue-tracker API with JWT auth and role-based filtering ([API →](https://devpulse-gamma-nine.vercel.app))
 
@@ -143,7 +143,7 @@ The streak comes from the GitHub contribution calendar, which already includes p
 
 ---
 
-Open to backend, platform and full-stack work — GMT+6, remote.
+Open to backend, platform and full-stack work. GMT+6, remote.
 Reach me at [being.sabbirhowlader@gmail.com](mailto:being.sabbirhowlader@gmail.com).
 
 <div align="right">
