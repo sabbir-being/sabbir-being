@@ -2,10 +2,10 @@
 
 <a href="https://realsabbir.dev">
   <picture>
-    <source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/banner-mobile-dark.svg">
-    <source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/banner-mobile-light.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/banner-light.svg">
-    <img alt="Md. Sabbir Howlader — Full-Stack Engineer" width="100%" src="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/banner-dark.svg">
+    <source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/banner-mobile-dark.svg">
+    <source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/banner-mobile-light.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/banner-light.svg">
+    <img alt="Md. Sabbir Howlader — Full-Stack Engineer" width="100%" src="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/banner-dark.svg">
   </picture>
 </a>
 
@@ -48,7 +48,7 @@ Error tracking that understands Manifest V3. Events survive service-worker death
 errors group by host, and `track()` names the task that died — the failure modes MV3 introduced and
 general-purpose trackers were never built for.
 
-`TypeScript` · zero runtime dependencies · `MIT` · [Docs →](https://crxtrace.dev) · [Repo →](https://github.com/sabbir-offc/crxtrace) · [![crxtrace on npm](https://img.shields.io/npm/v/crxtrace?style=flat-square&label=npm&color=58A6FF&labelColor=0D1117)](https://www.npmjs.com/package/crxtrace)
+`TypeScript` · zero runtime dependencies · `MIT` · [Docs →](https://crxtrace.dev) · [Repo →](https://github.com/sabbir-being/crxtrace) · [![crxtrace on npm](https://img.shields.io/npm/v/crxtrace?style=flat-square&label=npm&color=58A6FF&labelColor=0D1117)](https://www.npmjs.com/package/crxtrace)
 
 ### bd-commerce
 Typed clients for the infrastructure Bangladeshi e-commerce actually runs on — Steadfast, Pathao and
@@ -57,7 +57,7 @@ repeat the same expensive mistakes: unsettled delivery statuses treated as final
 on a redirect that never executed, a retry that ships the parcel twice. This is one careful
 implementation with those designed out.
 
-`TypeScript` · zero runtime dependencies · `MIT` · [Repo →](https://github.com/sabbir-offc/bd-commerce) · [![bd-commerce on npm](https://img.shields.io/npm/v/bd-commerce?style=flat-square&label=npm&color=58A6FF&labelColor=0D1117)](https://www.npmjs.com/package/bd-commerce)
+`TypeScript` · zero runtime dependencies · `MIT` · [Repo →](https://github.com/sabbir-being/bd-commerce) · [![bd-commerce on npm](https://img.shields.io/npm/v/bd-commerce?style=flat-square&label=npm&color=58A6FF&labelColor=0D1117)](https://www.npmjs.com/package/bd-commerce)
 
 ## Selected Work
 
@@ -66,7 +66,7 @@ An immutable, centrally-managed workstation operating system — a normal daily-
 to be encrypted and tamper-evident: `/usr` mounted read-only so nothing can modify the OS at runtime,
 users are not administrators, and a whole fleet updates from one signed image.
 
-`Linux` · `Immutable images` · `Fleet management` · *private* · [Install guide →](https://github.com/sabbir-offc/nexos-install)
+`Linux` · `Immutable images` · `Fleet management` · *private* · [Install guide →](https://github.com/sabbir-being/nexos-install)
 
 ### Enterprise Browser
 An enterprise-first browser and identity platform. The Electron client stays locked at launch until
@@ -75,7 +75,7 @@ then registered for challenge/response login and SSO into internal apps. Paired 
 server and an HR/IT admin panel for devices, policies, approvals and audit. 19 signed releases so far,
 on an auto-update channel serving an installed fleet.
 
-`Electron` · `Next.js` · `Prisma` · `TypeScript` · *private* · [Signed installers →](https://github.com/sabbir-offc/enterprise-browser-releases)
+`Electron` · `Next.js` · `Prisma` · `TypeScript` · *private* · [Signed installers →](https://github.com/sabbir-being/enterprise-browser-releases)
 
 ### FinLedger v2
 Multi-tenant financial ledger SaaS. One user belongs to many organizations and switches between them;
@@ -98,8 +98,8 @@ numbers at a glance — a practical guard against fraud and off-book transfers.
 
 `Next.js 15` · `Prisma` · `Neon Postgres` · `Tailwind` · [Live →](https://txnguard.vercel.app)
 
-**Also** — [Domain Guard](https://github.com/sabbir-offc/domain-guard), a Next.js admin panel for domain
-allowlisting with one-click approve, recorded denials and an audit trail · [DevPulse](https://github.com/sabbir-offc/l2-assignment-2-devpulse),
+**Also** — [Domain Guard](https://github.com/sabbir-being/domain-guard), a Next.js admin panel for domain
+allowlisting with one-click approve, recorded denials and an audit trail · [DevPulse](https://github.com/sabbir-being/l2-assignment-2-devpulse),
 an issue-tracker API with JWT auth and role-based filtering ([API →](https://devpulse-gamma-nine.vercel.app))
 
 ## GitHub in Numbers
@@ -107,30 +107,30 @@ an issue-tracker API with JWT auth and role-based filtering ([API →](https://d
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.vercel.app?user=sabbir-offc&hide_border=true&background=0D1117&border=30363D&stroke=21262D&ring=58A6FF&fire=BF91F3&currStreakNum=E6EDF3&sideNums=8B949E&currStreakLabel=58A6FF&sideLabels=8B949E&dates=6E7681">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.vercel.app?user=sabbir-offc&hide_border=true&background=FFFFFF&border=D0D7DE&stroke=D8DEE4&ring=0969DA&fire=8250DF&currStreakNum=1F2328&sideNums=57606A&currStreakLabel=0969DA&sideLabels=57606A&dates=6E7781">
-  <img alt="Contribution streak" width="60%" src="https://streak-stats.vercel.app?user=sabbir-offc&hide_border=true&background=0D1117&border=30363D&stroke=21262D&ring=58A6FF&fire=BF91F3&currStreakNum=E6EDF3&sideNums=8B949E&currStreakLabel=58A6FF&sideLabels=8B949E&dates=6E7681">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.vercel.app?user=sabbir-being&hide_border=true&background=0D1117&border=30363D&stroke=21262D&ring=58A6FF&fire=BF91F3&currStreakNum=E6EDF3&sideNums=8B949E&currStreakLabel=58A6FF&sideLabels=8B949E&dates=6E7681">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.vercel.app?user=sabbir-being&hide_border=true&background=FFFFFF&border=D0D7DE&stroke=D8DEE4&ring=0969DA&fire=8250DF&currStreakNum=1F2328&sideNums=57606A&currStreakLabel=0969DA&sideLabels=57606A&dates=6E7781">
+  <img alt="Contribution streak" width="60%" src="https://streak-stats.vercel.app?user=sabbir-being&hide_border=true&background=0D1117&border=30363D&stroke=21262D&ring=58A6FF&fire=BF91F3&currStreakNum=E6EDF3&sideNums=8B949E&currStreakLabel=58A6FF&sideLabels=8B949E&dates=6E7681">
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-languages-mobile-dark.svg">
-  <source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-languages-mobile-light.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-languages-light.svg">
-  <img alt="Language breakdown by bytes of code across every repository, public and private" width="98%" src="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-languages-dark.svg">
+  <source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-languages-mobile-dark.svg">
+  <source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-languages-mobile-light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-languages-light.svg">
+  <img alt="Language breakdown by bytes of code across every repository, public and private" width="98%" src="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-languages-dark.svg">
 </picture>
 <picture>
-  <source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-numbers-mobile-dark.svg">
-  <source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-numbers-mobile-light.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-numbers-light.svg">
-  <img alt="Headline totals: commits all time, share in private repos, repository counts, top language share" width="98%" src="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-numbers-dark.svg">
+  <source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-numbers-mobile-dark.svg">
+  <source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-numbers-mobile-light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-numbers-light.svg">
+  <img alt="Headline totals: commits all time, share in private repos, repository counts, top language share" width="98%" src="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-numbers-dark.svg">
 </picture>
 <picture>
-  <source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-commits-mobile-dark.svg">
-  <source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-commits-mobile-light.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-commits-light.svg">
-  <img alt="Commits per year, split public versus private, current year to date" width="98%" src="https://raw.githubusercontent.com/sabbir-offc/sabbir-offc/main/Images/card-commits-dark.svg">
+  <source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-commits-mobile-dark.svg">
+  <source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-commits-mobile-light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-commits-light.svg">
+  <img alt="Commits per year, split public versus private, current year to date" width="98%" src="https://raw.githubusercontent.com/sabbir-being/sabbir-being/main/Images/card-commits-dark.svg">
 </picture>
 
 <sub><b>On these numbers.</b> Public card services only see public repositories, so the language and
@@ -147,5 +147,5 @@ Open to backend, platform and full-stack work — GMT+6, remote.
 Reach me at [being.sabbirhowlader@gmail.com](mailto:being.sabbirhowlader@gmail.com).
 
 <div align="right">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=sabbir-offc&label=Profile%20views&color=58a6ff&style=flat-square">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=sabbir-being&label=Profile%20views&color=58a6ff&style=flat-square">
 </div>
