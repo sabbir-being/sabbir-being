@@ -17,8 +17,8 @@
 
 <a href="https://realsabbir.dev"><img alt="realsabbir.dev" src="https://img.shields.io/badge/realsabbir.dev-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117"></a>
 <a href="mailto:being.sabbirhowlader@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"></a>
-<a href="https://linkedin.com/in/sabbiroffc"><img alt="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"></a>
-<a href="https://twitter.com/sabbir_offc"><img alt="X" src="https://img.shields.io/badge/X-1D9BF0?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117"></a>
+<a href="https://www.linkedin.com/in/sabbirbeing"><img alt="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"></a>
+<a href="https://x.com/sabbir_being_"><img alt="X" src="https://img.shields.io/badge/X-1D9BF0?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117"></a>
 
 </div>
 
